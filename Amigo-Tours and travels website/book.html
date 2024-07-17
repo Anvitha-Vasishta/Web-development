@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Tours and Travels</title>
+        <link rel="stylesheet" href="book.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+    <body>
+        <section class="header">
+        <ul>
+            <li><a href="#phone"><img src="images/phone.png" height="15" width="15"> 010-632-526</a></li>
+            <li><a href="#message"><img src="images/message.png" height="15" width="15"> amigo427@gmail.com</a></li>
+            <li style="float:right"><a href="#reg">Register</a></li>
+            <li style="float:right"><a href="#log">Login</a></li>
+        </ul>
+        <div class="top">
+            <div class="navbar">
+                <a href="#" class="logo">Ami<span style="color:rgb(251, 239, 218);">Go <img src="images/logo.png" height="60"></span></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pack.html">Packages</a></li>
+                    <li><a href="book.html">Booking</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <h1 style="color: white;text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;font-family:cursive;line-height: 25px;">CHOOSE YOUR</h1>
+            <h2 style="color: white;text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;font-family: cursive;">FAVOURITE DESTINATION!</h2>
+            <div class="button">
+            <a href="#booking"><input type="submit" value="Book your trip!" style="font-size:30px;font-weight:850;background-color:azure;font-family:monospace;"></a><br><br>
+            <a href="pack.html"><input type="submit" value=" See Packages " style="font-size:28px;font-weight:800;background-color:rgb(245, 199, 199);font-family: cursive;padding: 15px;"></a>  
+            </div>
+        </div>
+</section>
+        <section class="book" id="booking">
+            <h1 class="heading">
+                <span>B</span>
+                <span>O</span>
+                <span>O</span>
+                <span>K</span>
+                <span>I</span>
+                <span>N</span>
+                <span>G</span>
+                <span>S</span>
+            </h1>
+            <form action="book_form.php" method="post" class="book-form">
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>name :</span>
+                        <input type="text" placeholder="Enter your name" name="name" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>email :</span>
+                        <input type="email" placeholder="Enter your email" name="email" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>phone :</span>
+                        <input type="number" placeholder="Enter your number" name="phone" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>address :</span>
+                        <input type="text" placeholder="Enter your address" name="address" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>where to :</span>
+                        <input type="text" placeholder="place you want to visit" name="location" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>how many :</span>
+                        <input type="number" placeholder="Number of guests" name="guests" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>arrivals :</span>
+                        <input type="date" name="arrivals" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>departure :</span>
+                        <input type="date" name="departure" required>
+                    </div>
+                </div>
+                <input type="submit" value="submit" class="btn">
+            </form>
+        </section>
+        
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>about us</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore <p>
+                </div>
+                <div class="box">
+                    <h3>branch</h3>
+                    <a href="#">India</a>
+                    <a href="#">USA</a>
+                    <a href="#">France</a>
+                    <a href="#">Germany</a>
+                </div>
+                <div class="box">
+                    <h3>locations</h3>
+                    <a href="#">India</a>
+                    <a href="#">USA</a>
+                    <a href="#">France</a>
+                    <a href="#">Germany</a>
+                </div>
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="index.html">home</a>
+                    <a href="pack.html">packages</a>
+                    <a href="book.html">Booking</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#">facebook</a>
+                    <a href="#">instagram</a>
+                    <a href="#">twitter</a>
+                    <a href="#">linkedin</a>
+                </div>
+            </div>
+            <h1 class="credit">created by <span>Amigo Tours and travels</span> | all rights reserved</h1>
+        </section>
+        </body>
+        </html>

@@ -1,0 +1,117 @@
+body{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(6, 6, 77);
+    padding-left: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+img{
+    width:80px;
+    height:80px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius:20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.container{
+    background-color: beige;
+    padding-bottom: 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.5);
+    }
+ h1{
+    
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(5, 5, 112);
+    font-size: 45px;
+    font-weight: bold;
+    padding-left: 20px;
+    text-align: center;
+}
+.box{
+    background-color: aliceblue;
+    padding: 5px 5px 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.5);
+    
+    
+}
+.news{
+    background-color: beige;
+    padding: 5px 5px 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.5);
+    
+}
+.letter{
+    background-color: aliceblue;
+    padding: 5px 5px 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.5);
+}
+.container2{
+    padding: 20px 5px 20px;
+  background-color: #f1f1f1;
+  box-shadow: 4px 4px 10px rgba(0,0,0,.5);
+}
+.box p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    font-size: 20px;
+    color:brown;
+    text-align: center;
+   
+}
+.news p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    font-size: 20px;
+    color:chocolate;
+    text-align: center;
+}
+
+.letter p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(46, 46, 92);
+    text-align: justify;
+    padding:0px 10px
+}
+h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(4, 4, 87);
+    padding-left: 10px;
+    font-size: 25px;
+    text-align: center;
+
+}
+h4{
+    color: rgb(69, 69, 139);
+    font-size: 30px;
+    padding-left: 10px;
+    text-align: center;
+}
+input[type=submit] {
+    background-color:rgb(29, 128, 181);
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
